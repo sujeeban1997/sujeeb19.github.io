@@ -1,5 +1,3 @@
-$(document).ready(function(){
-
 // Navbar Add class function 
 $(window).scroll(function(){
           if(this.scrollY > 20){
@@ -29,7 +27,6 @@ $('.scroll-up-btn').click(function(){
     backSpeed : 60,
     loop : true
 });
- });
 
 
 // Owl carousel for testimonial section 
