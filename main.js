@@ -1,3 +1,5 @@
+$(document).ready(function(){
+
 // Navbar Add class function 
 $(window).scroll(function(){
           if(this.scrollY > 20){
@@ -18,6 +20,16 @@ $('.scroll-up-btn').click(function(){
           $('html').animate({scrollTop: 0});
       });
   
+
+ //typing animation scrippts 
+
+ var typed = new Typed(".mybio", {
+    strings: ["Youtuber" , "Developer" , "Designer"],
+    typeSpeed : 100,
+    backSpeed : 60,
+    loop : true
+});
+ });
 
 
 // Owl carousel for testimonial section 
